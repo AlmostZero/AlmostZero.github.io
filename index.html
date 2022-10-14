@@ -1,432 +1,346 @@
-<!doctype html>
-<html lang="ja">
-
+<!DOCTYPE html>
+<html lang="en"> 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-  <title>JaebumKim.CV</title>
-
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Serif+JP&display=swap');
-
-    body {
-      padding-top: 75px;
-      font-family: 'Noto Sans JP', sans-serif;
-    }
-  </style>
-
-
-</head>
-
-<body>
-  <!-- Navbar -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Jaebum Kim</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-
-        <li class="nav-item active">
-          <a class="nav-link" href="#">CV/Resume<span class="sr-only">(current)</span></a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="#">BIM開発経歴</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="#">BIMデザイン経歴</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
-        </li>
-
-      </ul>
-      <!-- <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form> -->
-    </div>
-  </nav>
-
-  <!-- content -->
-  <div class="container">
-
-    <h2>
-      経歴概要 <small class="text-muted font-weight-normal">CV/Resume</small>
-    </h2>
-
-    <div class="mt-3 mx-1">
-      <p>現在、ゼネコンのもとで建築知識を活用し、テスト可能なC#ソースコードの提供、実用性の高い
-        <strong>RevitAPIの統合開発</strong>
-        やさまざまなデスクトップソフトウェア製品のユーザーインターフェイスのプロトタイピング等をメイン業務として行っています。
-      </p>
-    </div>
-
-    <hr class="my-3">
-
-    <div class="row mb-3">
-
-      <div class="col-md-4 themed-grid-col ">
-        <img class="w-100 rounded border" src="images/kim_profile.jpeg" alt="">
-      </div>
-
-      <div class="col-md-8 themed-grid-col">
-        
-        <dl class="row my-3">
+    <title>Pillar - Bootstrap 5 Resume/CV Template for Developers</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive Resume Template">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link rel="shortcut icon" href="favicon.ico"> 
+    
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+    
+    <!-- FontAwesome JS-->
+	<script defer src="assets/fontawesome/js/all.min.js"></script>
        
-          <dt class="col-sm-3">名前</dt>
-          <dd class="col-sm-9">
-            <p class="font-weight-bold">
-              <ruby>
-                Kim<rt>キム</rt>
-              </ruby>
-              <ruby>
-                Jaebum<rt>ジェボム</rt>
-              </ruby>
-              <small class="text-muted font-weight-normal"><br>1990.8.6</small>
-            </p>
-
-          </dd>
-
-          <dt class="col-sm-3">職歴
-          </dt>
-          <dd class="col-sm-9">
-            <section class="mb-4">
-              <div class="resume-section-content">
-                <ul class="list-unstyled">
-
-                  <li class="mb-4">
-                    <div class="media">
-                      <!-- <img class="mr-3" src="images/Taisei_logo.svg" alt="Generic placeholder image">-->
-                      <div class="media-body">
-                        <div class="resume-degree font-weight-bold">大成建設株式会社</div>
-                        <div class="resume-degree-org">大成建設・伊藤組土建・スターツCAM共同企業体</div>
-                        <div class="resume-degree-org">北8西1地区第一種市街地再開発事情作業所</div>
-                        <div class="resume-degree-org">BIM運用・プログラマー</div>
-                        <small class="text-muted font-weight-normal">2020 - 現在</small>
-                      </div>                  
-                    </div>                   
-                  </li>
-
-                  <li class="mb-4">
-                    <div class="media">
-                      <!-- <img class=" mr-3" src="images/Taisei_logo.svg" alt="Generic placeholder image"> -->
-                      <div class="media-body">
-                        <div class="resume-degree font-weight-bold">大成建設株式会社</div>
-                        <div class="resume-degree-org">本社デジタルプロダクトセンター</div>
-                        <div class="resume-degree-org">BIM計画室</div>
-                        <div class="resume-degree-org">BIMモデル品質管理担当</div>
-                        <small class="text-muted font-weight-normal">2018 - 2020</small>
-                      </div>
-                    </div>
-                  </li>
-
-                  <li class="mb-3">
-                    <div class="media">
-                      <!-- <img class="mr-3" style="height: 48px; width: 55px;" src="images/noah_logo.png" alt="Generic placeholder image"> -->
-                      <div class="media-body">
-                        <div class="resume-degree font-weight-bold">株式会社 Noah Design</div>
-                        <div class="resume-degree-org">BIM運用</div>
-                        <small class="text-muted font-weight-normal">2018 - 現在</small>
-                      </div>
-                    </div>
-                  </li>
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/pillar-1.css">
 
 
-                </ul>
-              </div>
+</head> 
 
-              <hr>
+<body>	
 
-            </section>
+    <article class="resume-wrapper text-center position-relative">
+	    <div class="resume-wrapper-inner mx-auto text-start bg-white shadow-lg">
+		    <header class="resume-header pt-4 pt-md-0">
+			    <div class="row">
+				    <div class="col-block col-md-auto resume-picture-holder text-center text-md-start">
+				        <img class="picture" src="assets/images/profile.jpg" alt="">
+				    </div><!--//col-->
+				    <div class="col">
+					    <div class="row p-4 justify-content-center justify-content-md-between">
+						    <div class="primary-info col-auto">
+							    <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">Steve Doe</h1>
+							    <div class="title mb-3">Full Stack Developer</div>
+							    <ul class="list-unstyled">
+								    <li class="mb-2"><a class="text-link" href="#"><i class="far fa-envelope fa-fw me-2" data-fa-transform="grow-3"></i>Steve.Doe@website.com</a></li>
+								    <li><a class="text-link" href="#"><i class="fas fa-mobile-alt fa-fw me-2" data-fa-transform="grow-6"></i>0123 456 78900</a></li>
+							    </ul>
+						    </div><!--//primary-info-->
+						    <div class="secondary-info col-auto mt-2">
+							    <ul class="resume-social list-unstyled">
+					                <li class="mb-3"><a class="text-link" href="#"><span class="fa-container text-center me-2"><i class="fab fa-linkedin-in fa-fw"></i></span>linkedin.com/in/stevedoe</a></li>
+					                <li class="mb-3"><a class="text-link" href="#"><span class="fa-container text-center me-2"><i class="fab fa-github-alt fa-fw"></i></span>github.com/username</a></li>
+					                <li class="mb-3"><a class="text-link" href="#"><span class="fa-container text-center me-2"><i class="fab fa-codepen fa-fw"></i></span>codepen.io/username/</a></li>
+					                <li><a class="text-link" href="#"><span class="fa-container text-center me-2"><i class="fas fa-globe"></i></span>yourwebsite.com</a></li>
+							    </ul>
+						    </div><!--//secondary-info-->
+					    </div><!--//row-->
+					    
+				    </div><!--//col-->
+			    </div><!--//row-->
+		    </header>
+		    <div class="resume-body p-5">
+			    <section class="resume-section summary-section mb-5">
+				    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Career Summary</h2>
+				    <div class="resume-section-content">
+					    <p class="mb-0">Summarise your career here. <a class="text-reset text-link" href="https://themes.3rdwavemedia.com/resources/sketch-template/pillar-sketch-sketch-resume-template-for-developers/" target="_blank">You can make a PDF version of your resume using our free Sketch template here</a>. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+				    </div>
+			    </section><!--//summary-section-->
+			    <div class="row">
+				    <div class="col-lg-9">
+					    <section class="resume-section experience-section mb-5">
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Work Experience</h2>
+						    <div class="resume-section-content">
+							    <div class="resume-timeline position-relative">
+								    <article class="resume-timeline-item position-relative pb-5">
+									    
+									    <div class="resume-timeline-item-header mb-2">
+										    <div class="d-flex flex-column flex-md-row">
+										        <h3 class="resume-position-title font-weight-bold mb-1">Lead Developer</h3>
+										        <div class="resume-company-name ms-auto">Startup Hub</div>
+										    </div><!--//row-->
+										    <div class="resume-position-time">2020 - Present</div>
+									    </div><!--//resume-timeline-item-header-->
+									    <div class="resume-timeline-item-desc">
+										    <p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel.</p>
+										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements:</h4>
+										    <p>Praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+										    <ul>
+											    <li>Lorem ipsum dolor sit amet, 80% consectetuer adipiscing elit.</li>
+											    <li>At vero eos et accusamus et iusto odio dignissimos.</li>
+											    <li>Blanditiis praesentium voluptatum deleniti atque corrupti.</li>
+											    <li>Maecenas tempus tellus eget.</li>
+										    </ul>
+										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
+										    <ul class="list-inline">
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Angular</span></li>
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Python</span></li>
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">jQuery</span></li>
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Webpack</span></li>
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">HTML/SASS</span></li>
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">PostgresSQL</span></li>
+										    </ul>
+									    </div><!--//resume-timeline-item-desc-->
 
-          </dd>
+								    </article><!--//resume-timeline-item-->
+								    
+								    <article class="resume-timeline-item position-relative pb-5">
+									    
+									    <div class="resume-timeline-item-header mb-2">
+										    <div class="d-flex flex-column flex-md-row">
+										        <h3 class="resume-position-title font-weight-bold mb-1">Senior Software Developer</h3>
+										        <div class="resume-company-name ms-auto">Google</div>
+										    </div><!--//row-->
+										    <div class="resume-position-time">2016 - 2020</div>
+									    </div><!--//resume-timeline-item-header-->
+									    <div class="resume-timeline-item-desc">
+										    <p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel.</p>
+										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements</h4>
+										    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
+										    <ul class="list-inline">
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">React</span></li>
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Redux</span></li>
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Django</span></li>
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Webpack</span></li>
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">HTML/SASS</span></li>
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">MySQL</span></li>
+										    </ul>
+									    </div><!--//resume-timeline-item-desc-->
 
-          <dt class="col-sm-3">
-            <p>学歴・資格</p>
-          </dt>
-          <dd class="col-sm-9">
-            <section class="mb-4">
-              <div>
-                <ul class="list-unstyled">
-                  <li>
-                    <div class="resume-degree font-weight-bold">建築学専攻</div>
-                    <div class="resume-degree-org">Dept of Architecture, College of Engineering</div>
-                    <div class="resume-degree-org">Wonkwang University, Korea</div>
-                    <small class="text-muted font-weight-normal">2009 - 2018</small>
-                  </li>
-                </ul>
+								    </article><!--//resume-timeline-item-->
+								    
+								    <article class="resume-timeline-item position-relative pb-5">
+									    
+									    <div class="resume-timeline-item-header mb-2">
+										    <div class="d-flex flex-column flex-md-row">
+										        <h3 class="resume-position-title font-weight-bold mb-1">Co-Founder & Lead Developer</h3>
+										        <div class="resume-company-name ms-auto">To-do Lists</div>
+										    </div><!--//row-->
+										    <div class="resume-position-time">2012 - 2016</div>
+									    </div><!--//resume-timeline-item-header-->
+									    <div class="resume-timeline-item-desc">
+										    <p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.</p>
+										    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
+										    <ul class="list-inline">
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Django</span></li>
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">JavaScript</span></li>
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Node.js</span></li>
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Require.js</span></li>
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">HTML/SASS</span></li>
+										    </ul>
+									    </div><!--//resume-timeline-item-desc-->
 
-                <ul class="list-unstyled">
-                  <li>
-                    <div class="resume-degree font-weight-bold"><del>一級建築士</del></div>
-                    <small class="text-muted font-weight-normal"><s>2023</s></small>
-                  </li>
-                </ul>
+								    </article><!--//resume-timeline-item-->
+								    
+								    <article class="resume-timeline-item position-relative">
+									    
+									    <div class="resume-timeline-item-header mb-2">
+										    <div class="d-flex flex-column flex-md-row">
+										        <h3 class="resume-position-title font-weight-bold mb-1">Web Developer <small class="text-muted">(Intern)</small></h3>
+										        <div class="resume-company-name ms-auto">Amazon</div>
+										    </div><!--//row-->
+										    <div class="resume-position-time">2011 - 2012</div>
+									    </div><!--//resume-timeline-item-header-->
+									    <div class="resume-timeline-item-desc">
+										    <p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum.</p>
+										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
+										    <ul class="list-inline">
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Ruby on Rails</span></li>
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">jQuery</span></li>
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">HTML/LESS</span></li>
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">MongoDB</span></li>
+										    </ul>
+									    </div><!--//resume-timeline-item-desc-->
 
-                <ul class="list-unstyled">
-                  <li>
-                    <div class="resume-degree font-weight-bold">日本語能力試験</div>
-                    <div class="resume-degree-org">JLPT N1</div>
-                    <small class="text-muted font-weight-normal">2014</small>
-                  </li>
-                </ul>
+								    </article><!--//resume-timeline-item-->
+								    
+								    
+							    </div><!--//resume-timeline-->
+							    
+							    
+							    
+							    
+							    
+							    
+						    </div>
+					    </section><!--//experience-section-->
+				    </div>
+				    <div class="col-lg-3">
+					    <section class="resume-section skills-section mb-5">
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Skills &amp; Tools</h2>
+						    <div class="resume-section-content">
+						        <div class="resume-skill-item">
+							        <h4 class="resume-skills-cat font-weight-bold">Frontend</h4>
+							        <ul class="list-unstyled mb-4">
+								        <li class="mb-2">
+								            <div class="resume-skill-name">Angular</div>
+									        <div class="progress resume-progress">
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 98%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+								        </li>
+								        <li class="mb-2">
+								            <div class="resume-skill-name">React</div>
+									        <div class="progress resume-progress">
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 94%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+								        </li>
+								        <li class="mb-2">
+								            <div class="resume-skill-name">JavaScript</div>
+									        <div class="progress resume-progress">
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 96%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+								        </li>
+								        
+								        <li class="mb-2">
+								            <div class="resume-skill-name">Node.js</div>
+									        <div class="progress resume-progress">
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 92%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+								        </li>
+								        <li class="mb-2">
+								            <div class="resume-skill-name">HTML/CSS/SASS/LESS</div>
+									        <div class="progress resume-progress">
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 96%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+								        </li>
+							        </ul>
+						        </div><!--//resume-skill-item-->
+						        
+						        <div class="resume-skill-item">
+						            <h4 class="resume-skills-cat font-weight-bold">Backend</h4>
+							        <ul class="list-unstyled">
+								        <li class="mb-2">
+								            <div class="resume-skill-name">Python/Django</div>
+									        <div class="progress resume-progress">
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+								        </li>
+								        <li class="mb-2">
+								            <div class="resume-skill-name">Ruby/Rails</div>
+									        <div class="progress resume-progress">
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 92%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+								        </li>
+								        <li class="mb-2">
+								            <div class="resume-skill-name">PHP</div>
+									        <div class="progress resume-progress">
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 86%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+								        </li>
+								        <li class="mb-2">
+								            <div class="resume-skill-name">WordPress/Shopify</div>
+									        <div class="progress resume-progress">
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 82%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+								        </li>
+							        </ul>
+						        </div><!--//resume-skill-item-->
+						        
+						        <div class="resume-skill-item">
+						            <h4 class="resume-skills-cat font-weight-bold">Others</h4>
+						            <ul class="list-inline">
+							            <li class="list-inline-item"><span class="badge badge-light">DevOps</span></li>
+							            <li class="list-inline-item"><span class="badge badge-light">Code Review</span></li>
+							            <li class="list-inline-item"><span class="badge badge-light">Git</span></li>
+							            <li class="list-inline-item"><span class="badge badge-light">Unit Testing</span></li>
+							            <li class="list-inline-item"><span class="badge badge-light">Wireframing</span></li>
+							            <li class="list-inline-item"><span class="badge badge-light">Sketch</span></li>
+							            <li class="list-inline-item"><span class="badge badge-light">Balsamiq</span></li>
+							            <li class="list-inline-item"><span class="badge badge-light">WordPress</span></li>
+							            <li class="list-inline-item"><span class="badge badge-light">Shopify</span></li>
+						            </ul>
+						        </div><!--//resume-skill-item-->
+						    </div><!--resume-section-content-->
+					    </section><!--//skills-section-->
+					    <section class="resume-section education-section mb-5">
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Education</h2>
+						    <div class="resume-section-content">
+							    <ul class="list-unstyled">
+								    <li class="mb-2">
+								        <div class="resume-degree font-weight-bold">MSc in Computer Science</div>
+								        <div class="resume-degree-org">University College London</div>
+								        <div class="resume-degree-time">2010 - 2011</div>
+								    </li>
+								    <li>
+								        <div class="resume-degree font-weight-bold">BSc Maths and Physics</div>
+								        <div class="resume-degree-org">Imperial College London</div>
+								        <div class="resume-degree-time">2007 - 2010</div>
+								    </li>
+							    </ul>
+						    </div>
+					    </section><!--//education-section-->
+					    <section class="resume-section reference-section mb-5">
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Awards</h2>
+						    <div class="resume-section-content">
+							    <ul class="list-unstyled resume-awards-list">
+								    <li class="mb-2 ps-4 position-relative">
+								        <i class="resume-award-icon fas fa-trophy position-absolute" data-fa-transform="shrink-2"></i>
+								        <div class="resume-award-name">Award Name Lorem</div>
+								        <div class="resume-award-desc">Award desc goes here, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.</div>
+								    </li>
+								    <li class="mb-0 ps-4 position-relative">
+								        <i class="resume-award-icon fas fa-trophy position-absolute" data-fa-transform="shrink-2"></i>
+								        <div class="resume-award-name">Award Name Ipsum</div>
+								        <div class="resume-award-desc">Award desc goes here, ultricies nec, pellentesque.</div>
+								    </li>
+							    </ul>
+						    </div>
+					    </section><!--//interests-section-->
+					    <section class="resume-section language-section mb-5">
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Language</h2>
+						    <div class="resume-section-content">
+							    <ul class="list-unstyled resume-lang-list">
+								    <li class="mb-2"><span class="resume-lang-name font-weight-bold">English</span> <small class="text-muted font-weight-normal">(Native)</small></li>
+								    <li class="mb-2 align-middle"><span class="resume-lang-name font-weight-bold">French</span> <small class="text-muted font-weight-normal">(Professional)</small></li>
+								    <li><span class="resume-lang-name font-weight-bold">Spanish</span> <small class="text-muted font-weight-normal">(Professional)</small></li>
+							    </ul>
+						    </div>
+					    </section><!--//language-section-->
+					    <section class="resume-section interests-section mb-5">
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Interests</h2>
+						    <div class="resume-section-content">
+							    <ul class="list-unstyled">
+								    <li class="mb-1">Climbing</li>
+								    <li class="mb-1">Snowboarding</li>
+								    <li class="mb-1">Cooking</li>
+							    </ul>
+						    </div>
+					    </section><!--//interests-section-->
+					    
+				    </div>
+			    </div><!--//row-->
+		    </div><!--//resume-body-->
+		    
+		    
+	    </div>
+    </article> 
 
-              </div>
-            </section>
+    
+    <footer class="footer text-center pt-2 pb-5">
+	    <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+        <small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+    </footer>
 
-            <hr>
+    
 
-          </dd>
-
-
-          <dt class="col-sm-3">言語</dt>
-          <dd class="col-sm-9">
-            <section class="mb-4">
-              <div class="resume-section-content">
-                <ul class="list-unstyled resume-lang-list">
-                  <li class="mb-2">
-                    <span class="resume-lang-name font-weight-bold">日本語</span>
-                    <small class="text-muted font-weight-normal">(Professional)</small>
-                  </li>
-                  <li>
-                    <span class="resume-lang-name font-weight-bold">韓国語</span>
-                    <small class="text-muted font-weight-normal">(Native)</small>
-                  </li>
-                </ul>
-              </div>
-            </section>
-          </dd>
-
-
-
-        </dl>
-      </div>
-
-    </div>
-
-    <hr>
-
-
-
-    <h2 class="mt-4">
-      BIM開発経歴
-    </h2>
-
-    <p>Get three equal-width columns <strong>starting at desktops and scaling to large desktops</strong>. On mobile
-      devices, tablets and below, the columns will automatically stack.</p>
-    <h5 class="resume-timeline-item-desc-heading font-weight-bold">スキール</h5>
-    <div class="resume-timeline-item-desc">
-      <ul class="list-inline">
-        <li class="list-inline-item"><span class="badge bg-secondary badge-pill"
-            style="font-size: 13px; color: white;">C#</span></li>
-        <li class="list-inline-item"><span class="badge bg-secondary badge-pill"
-            style="font-size: 13px; color: white;">.NET</span></li>
-        <li class="list-inline-item"><span class="badge bg-secondary badge-pill"
-            style="font-size: 13px; color: white;">WPF</span></li>
-        <li class="list-inline-item"><span class="badge bg-secondary badge-pill"
-            style="font-size: 13px; color: white;">Revit API</span></li>
-        <li class="list-inline-item"><span class="badge bg-secondary badge-pill"
-            style="font-size: 13px; color: white;">Rhinoceros</span></li>
-      </ul>
-    </div>
-
-    <div class="row mb-3">
-
-      <div class="col-md-8 themed-grid-col">
-        <dl class="row my-3">
-          <dt class="col-sm-3">学歴・職歴</dt>
-          <dd class="col-sm-9">
-            <p>Vestibulum id ligula porta felis euismod.</p>
-            <li>Nulla volutpat aliquam velit
-              <ul>
-                <li>Phasellus iaculis neque</li>
-                <li>Purus sodales ultricies</li>
-                <li>Vestibulum laoreet porttitor sem</li>
-              </ul>
-            </li>
-
-            <li>Nulla volutpat aliquam velit</li>
-            <li>Nulla volutpat aliquam velit</li>
-
-          </dd>
-
-          <dt class="col-sm-3">知識概要</dt>
-          <dd class="col-sm-9">
-            <p>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</p>
-            <p>Donec id elit non mi porta gravida at eget metus.</p>
-          </dd>
-
-          <dt class="col-sm-3">Malesuada porta</dt>
-          <dd class="col-sm-9">Etiam porta sem malesuada magna mollis euismod.</dd>
-
-          <dt class="col-sm-3 text-truncate">Truncated term is truncated</dt>
-          <dd class="col-sm-9">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
-            massa justo sit amet risus.</dd>
-
-          <dt class="col-sm-3">Nesting</dt>
-          <dd class="col-sm-9">
-            <dl class="row">
-              <dt class="col-sm-4">Nested definition list</dt>
-              <dd class="col-sm-8">Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc.</dd>
-            </dl>
-          </dd>
-        </dl>
-      </div>
-
-      <div class="col-md-4 themed-grid-col">
-        <img class="w-100 rounded" src="https://via.placeholder.com/250" alt="">
-      </div>
-
-    </div>
-
-    <hr>
-
-    <h2 class="mt-4">
-      BIMデザイン経歴
-    </h2>
-
-    <p>Get three equal-width columns <strong>starting at desktops and scaling to large desktops</strong>. On mobile
-      devices, tablets and below, the columns will automatically stack.</p>
-
-    <div class="row mb-1">
-
-      <div class="col-md-8 themed-grid-col">
-        <dl class="row my-3">
-          <dt class="col-sm-3">学歴・職歴</dt>
-          <dd class="col-sm-9">
-            <p>Vestibulum id ligula porta felis euismod.</p>
-            <li>Nulla volutpat aliquam velit
-              <ul>
-                <li>Phasellus iaculis neque</li>
-                <li>Purus sodales ultricies</li>
-                <li>Vestibulum laoreet porttitor sem</li>
-              </ul>
-            </li>
-
-            <li>Nulla volutpat aliquam velit</li>
-            <li>Nulla volutpat aliquam velit</li>
-
-          </dd>
-
-          <dt class="col-sm-3">知識概要</dt>
-          <dd class="col-sm-9">
-            <p>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</p>
-            <p>Donec id elit non mi porta gravida at eget metus.</p>
-          </dd>
-
-          <dt class="col-sm-3">Malesuada porta</dt>
-          <dd class="col-sm-9">Etiam porta sem malesuada magna mollis euismod.</dd>
-
-          <dt class="col-sm-3 text-truncate">Truncated term is truncated</dt>
-          <dd class="col-sm-9">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
-            massa justo sit amet risus.</dd>
-
-          <dt class="col-sm-3">Nesting</dt>
-          <dd class="col-sm-9">
-            <dl class="row">
-              <dt class="col-sm-4">Nested definition list</dt>
-              <dd class="col-sm-8">Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc.</dd>
-            </dl>
-          </dd>
-        </dl>
-      </div>
-
-      <div class="col-md-4 themed-grid-col">
-        <img class="w-100 rounded" src="https://via.placeholder.com/250" alt="">
-      </div>
-
-    </div>
-
-
-    <!-- carousel -->
-    <div class="bd-example">
-      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="https://t.ly/j26ep" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="https://t.ly/j26ep" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="https://t.ly/j26ep" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-            </div>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-    </div>
-
-    <hr>
-
-    <div class="row my-5">
-      <div class="col-5">
-        <img class="w-100 rounded" src="https://via.placeholder.com/500x250" alt="">
-      </div>
-      <div class="col-7">
-        <h2>Second Nulla vitae elit libero, a pharetra augue mollis interdum.</h2>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-      </div>
-    </div>
-
-
-
-    <!-- footer -->
-    <div class="text-center">
-      <hr>
-      <p>
-        © 2018-2022
-      </p>
-    </div>
-  </div>
-
-
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
 </body>
+</html> 
 
-</html>
