@@ -15,7 +15,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Serif+JP&display=swap');
 
     body {
-      padding-top: 75px;
+      /* padding-top: 75px; */
       font-family: 'Noto Sans JP', sans-serif;
     }
   </style>
@@ -25,7 +25,7 @@
 
 <body>
   <!-- Navbar -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">Jaebum Kim</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,11 +40,11 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="#">BIM開発経歴</a>
+          <a class="nav-link" href="#bim_dev">BIM開発経歴</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="#">BIMデザイン経歴</a>
+          <a class="nav-link" href="#bim_design">BIMデザイン経歴</a>
         </li>
 
         <li class="nav-item">
@@ -60,7 +60,7 @@
   </nav>
 
   <!-- content -->
-  <div class="container">
+  <div class="container mt-4">
 
     <h2>
       経歴概要 <small class="text-muted font-weight-normal">CV/Resume</small>
@@ -85,27 +85,24 @@
 
         <dl class="row my-3">
 
-          <dt class="col-sm-2 mb-3">名前
-            <small class="text-muted font-weight-normal"><br>NAME</small>
-          </dt>
+          <dt class="col-sm-3">名前</dt>
+          <dd class="col-sm-9">
+            <p class="font-weight-bold">
+              <ruby>
+                Kim<rt>キム</rt>
+              </ruby>
+              <ruby>
+                Jaebum<rt>ジェボム</rt>
+              </ruby>
+              <small class="text-muted font-weight-normal"><br>1990.8.6</small>
+            </p>
 
-          <dd class="col-sm-10">
-            <section class="ml-3">
-              <small class="font-weight-normal">きむ　じぇぼむ<br></small>
-              <p class="font-weight-bold">
-                
-                Kim Jaebum
-                <small class="text-muted font-weight-normal"><br>1990.8.6</small>
-              </p>
-              <hr>
-            </section>        
           </dd>
 
-          <dt class="col-sm-2  mb-3">職歴
-            <small class="text-muted font-weight-normal"><br>WORK EXPERIENCE</small>
+          <dt class="col-sm-3">職歴
           </dt>
-          <dd class="col-sm-10">
-            <section class="mb-4 ml-3">
+          <dd class="col-sm-9">
+            <section class="mb-4">
               <div class="resume-section-content">
                 <ul class="list-unstyled">
 
@@ -118,6 +115,8 @@
                         <div class="resume-degree-org">北8西1地区第一種市街地再開発事情作業所</div>
                         <div class="resume-degree-org">BIM運用・プログラマー</div>
                         <small class="text-muted font-weight-normal">2020 - 現在</small>
+                        <button type="button" class="btn btn-secondary btn-sm mt-2 mx-2
+                        " style="float:right;">詳細を見る</button>
                       </div>
                     </div>
                   </li>
@@ -131,6 +130,8 @@
                         <div class="resume-degree-org">BIM計画室</div>
                         <div class="resume-degree-org">BIMモデル品質管理担当</div>
                         <small class="text-muted font-weight-normal">2018 - 2020</small>
+                        <button type="button" class="btn btn-secondary btn-sm mt-2 mx-2
+                        " style="float:right;">詳細を見る</button>
                       </div>
                     </div>
                   </li>
@@ -142,6 +143,8 @@
                         <div class="resume-degree font-weight-bold">株式会社 Noah Design</div>
                         <div class="resume-degree-org">BIM運用</div>
                         <small class="text-muted font-weight-normal">2018 - 現在</small>
+                        <button type="button" class="btn btn-secondary btn-sm mt-2 mx-2
+                        " style="float:right;">詳細を見る</button>
                       </div>
                     </div>
                   </li>
@@ -156,14 +159,20 @@
 
           </dd>
 
-          <dt class="col-sm-2 mb-3">
-            <p>学歴・資格 
-              <small class="text-muted font-weight-normal"><br>EDUCATION</small>
-            </p>
+          <dt class="col-sm-3">
+            <p>学歴・資格</p>
           </dt>
-          <dd class="col-sm-10">
-            <section class="mb-4 ml-3">
+          <dd class="col-sm-9">
+            <section class="mb-4">
               <div>
+
+                <ul class="list-unstyled">
+                  <li>
+                    <div class="resume-degree font-weight-bold"><del>一級建築士</del></div>
+                    <small class="text-muted font-weight-normal"><s>2023</s></small>
+                  </li>
+                </ul>
+
                 <ul class="list-unstyled">
                   <li>
                     <div class="resume-degree font-weight-bold">建築学専攻</div>
@@ -175,29 +184,23 @@
 
                 <ul class="list-unstyled">
                   <li>
-                    <div class="resume-degree font-weight-bold"><del>一級建築士</del></div>
-                    <small class="text-muted font-weight-normal"><s>2023</s></small>
-                  </li>
-                </ul>
-
-                <ul class="list-unstyled">
-                  <li>
-                    <div class="resume-degree font-weight-bold">日本語能力試験</div>
-                    <div class="resume-degree-org">JLPT N1</div>
-                    <small class="text-muted font-weight-normal">2014</small>
+                    <div class="resume-degree font-weight-bold">日本語能力試験(JLPT)</div>
+                    <div class="resume-degree-org">N1</div>
+                    <small class="text-muted font-weight-normal">2014.8 (N1A173237A)</small>
                   </li>
                 </ul>
 
               </div>
-              <hr>
             </section>
+
+            <hr>
+
           </dd>
 
-          <dt class="col-sm-2 mb-3">言語
-            <small class="text-muted font-weight-normal"><br>LANGUAGE</small>
-          </dt>
-          <dd class="col-sm-10">
-            <section class="mb-4 ml-3">
+
+          <dt class="col-sm-3">言語</dt>
+          <dd class="col-sm-9">
+            <section class="mb-4">
               <div class="resume-section-content">
                 <ul class="list-unstyled resume-lang-list">
                   <li class="mb-2">
@@ -213,6 +216,8 @@
             </section>
           </dd>
 
+
+
         </dl>
       </div>
 
@@ -220,7 +225,9 @@
 
     <hr>
 
+    <div id="bim_dev">
 
+    </div>
 
     <h2 class="mt-4">
       BIM開発経歴
@@ -295,7 +302,7 @@
 
     <hr>
 
-    <h2 class="mt-4">
+    <h2 class="mt-4" id="bim_design">
       BIMデザイン経歴
     </h2>
 
